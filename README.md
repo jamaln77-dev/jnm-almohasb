@@ -1,20 +1,16 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# برنامج المحاسب الشخصي  
 
-This contains everything you need to run your app locally.
+برنمج حسابات شغصيه.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mrq3AGWOpu15jTwIGHRPBmNe2Ze060Nk
+View your app in AI Studio:"https://jamaln77-dev.github.io/Jnm-overtime"
 
-## Run Locally
+شرح ما سيفعله هذا البرومبت لك:
+هيكلة الحسابات: سيقوم الذكاء الاصطناعي بإنشاء "منطق شجري" يربط التصنيف بالفئة بالحساب، مما يسهل عليك تنظيم مصاريفك (مثلاً: تصنيف: منزل -> فئة: فواتير -> حساب: كهرباء).
 
-**Prerequisites:**  Node.js
+العمليات الحسابية: برمجنا المنطق بحيث أن "له" تزيد الرصيد و "عليه" تنقصه، مع إبراز الرصيد النهائي بشكل واضح.
 
+التقارير والتصدير: طلبت منه توفير ميزة استخراج البيانات كملفات PDF و Excel، وهي ميزة ضرورية للمحاسبة.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+الهوية البصرية: أضفت أمراً يسمح لك بتغيير ألوان التطبيق من الإعدادات ليكون مريحاً لعينك.
